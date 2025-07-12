@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshat Kumar - Computer Science & Biosciences Student</title>
+    <meta name="description" content="Portfolio of Akshat Kumar, B.Tech student in Computer Science and Biosciences at IIIT-Delhi, showcasing projects in game development, systems programming, and bioinformatics.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">AK</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                    <span class="theme-icon">🌙</span>
+                </button>
+            </div>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <img src="./public/mypic.jpg" alt="Akshat Kumar" class="profile-image">
+                    <div class="image-decoration"></div>
+                </div>
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Akshat Kumar</span>
+                    </h1>
+                    <p class="hero-subtitle">Computer Science & Biosciences Student</p>
+                    <p class="hero-description">
+                        B.Tech student at IIIT-Delhi (2023–2027) passionate about developing innovative solutions at the intersection of technology and biology. Experienced in full-stack development, systems programming, and bioinformatics research.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                        <a href="./public/Resume.pdf" target="_blank" class="btn btn-secondary" download="Akshat_Kumar_Resume.pdf">
+                            <span>📄</span>
+                            Download Resume
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">4+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">2+</span>
+                            <span class="stat-label">Internships</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Technologies</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Passionate about technology and biological sciences</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-card">
+                        <h3>Academic Background</h3>
+                        <div class="education-item">
+                            <div class="education-header">
+                                <h4>B.Tech in Computer Science and Biosciences</h4>
+                                <span class="education-period">2023 – 2027</span>
+                            </div>
+                            <p class="education-institution">Indraprastha Institute of Information Technology Delhi (IIIT-Delhi)</p>
+                            <p class="education-description">
+                                Pursuing an interdisciplinary degree that combines computer science fundamentals with biological sciences, 
+                                focusing on computational biology, bioinformatics, and the application of AI/ML in biological research.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about-card">
+                        <h3>Interests & Goals</h3>
+                        <ul class="interests-list">
+                            <li>Full-stack web development and software engineering</li>
+                            <li>Systems programming and low-level development</li>
+                            <li>Bioinformatics and computational biology</li>
+                            <li>Machine learning applications in healthcare</li>
+                            <li>Game development and interactive applications</li>
+                            <li>Open source contributions and collaborative development</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="skills-preview">
+                        <div class="skill-category">
+                            <h4>Programming</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">Java</span>
+                                <span class="skill-tag">C/C++</span>
+                                <span class="skill-tag">JavaScript</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Technologies</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">React</span>
+                                <span class="skill-tag">Flask</span>
+                                <span class="skill-tag">MySQL</span>
+                                <span class="skill-tag">AWS</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Bioinformatics</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Biopython</span>
+                                <span class="skill-tag">PyMOL</span>
+                                <span class="skill-tag">BLAST</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">A showcase of my technical skills and creativity</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Angry Birds Game">
+                        <div class="project-overlay">
+                            <a href="https://github.com/akshat60github" class="project-link" target="_blank" rel="noopener">View Code</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Angry Birds Game Clone</h3>
+                        <p class="project-description">
+                            A fully functional Angry Birds game clone built using libGDX framework in Java. Features physics-based gameplay, 
+                            multiple levels, scoring system, and smooth animations.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">libGDX</span>
+                            <span class="tech-tag">Physics Engine</span>
+                            <span class="tech-tag">Game Development</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/11035471/pexels-photo-11035471.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Unix Shell">
+                        <div class="project-overlay">
+                            <a href="https://github.com/akshat60github" class="project-link" target="_blank" rel="noopener">View Code</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Custom Unix Shell</h3>
+                        <p class="project-description">
+                            A custom Unix shell implementation in C featuring command execution, process management, 
+                            signal handling, and semaphore-based synchronization for robust concurrent operations.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">C</span>
+                            <span class="tech-tag">Unix</span>
+                            <span class="tech-tag">Signals</span>
+                            <span class="tech-tag">Semaphores</span>
+                            <span class="tech-tag">System Programming</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=600" alt="TradeNexus">
+                        <div class="project-overlay">
+                            <a href="https://github.com/akshat60github" class="project-link" target="_blank" rel="noopener">View Code</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">TradeNexus</h3>
+                        <p class="project-description">
+                            A comprehensive full-stack trading platform built with Flask and MySQL. Features user authentication, 
+                            real-time market data, portfolio management, and secure transaction processing.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Full-Stack</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/3825581/pexels-photo-3825581.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Breast Cancer Research">
+                        <div class="project-overlay">
+                            <a href="https://github.com/akshat60github" class="project-link" target="_blank" rel="noopener">View Code</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Breast Cancer Research</h3>
+                        <p class="project-description">
+                            A bioinformatics research project analyzing genetic mutations in breast cancer using machine learning. 
+                            Implemented mutation analysis algorithms and predictive models for cancer prognosis.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Machine Learning</span>
+                            <span class="tech-tag">Bioinformatics</span>
+                            <span class="tech-tag">Data Analysis</span>
+                            <span class="tech-tag">Research</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Professional Experience</h2>
+                <p class="section-subtitle">Building expertise through hands-on experience</p>
+            </div>
+            <div class="experience-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <h3 class="experience-title">Research Student</h3>
+                                <span class="experience-company">CANCOG (Infosys Centre for AI)</span>
+                                <span class="experience-period">Current</span>
+                            </div>
+                            <div class="experience-description">
+                                <p>
+                                    Working on cutting-edge AI research projects focused on cancer genomics and computational biology. 
+                                    Developing machine learning models for cancer diagnosis and treatment prediction using large-scale genomic datasets.
+                                </p>
+                                <ul class="experience-highlights">
+                                    <li>Implementing ML algorithms for genetic mutation analysis</li>
+                                    <li>Collaborating with interdisciplinary research teams</li>
+                                    <li>Contributing to peer-reviewed research publications</li>
+                                    <li>Developing bioinformatics tools and pipelines</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <h3 class="experience-title">Web Developer</h3>
+                                <span class="experience-company">Enveave</span>
+                                <span class="experience-period">Previous</span>
+                            </div>
+                            <div class="experience-description">
+                                <p>
+                                    Developed and maintained web applications using modern frameworks and technologies. 
+                                    Worked on both frontend and backend development, ensuring responsive design and optimal performance.
+                                </p>
+                                <ul class="experience-highlights">
+                                    <li>Built responsive web applications using React and JavaScript</li>
+                                    <li>Implemented RESTful APIs and database integration</li>
+                                    <li>Collaborated with design teams to create user-friendly interfaces</li>
+                                    <li>Optimized application performance and user experience</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-subtitle">Proficient in diverse technologies and tools</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category-card">
+                    <div class="skill-icon">💻</div>
+                    <h3>Programming Languages</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">C/C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category-card">
+                    <div class="skill-icon">🚀</div>
+                    <h3>Frameworks & Libraries</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">React</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Flask</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Django</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category-card">
+                    <div class="skill-icon">🛠️</div>
+                    <h3>Tools & Technologies</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Git</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Docker</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">AWS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 65%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Firebase</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Linux</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category-card">
+                    <div class="skill-icon">🧬</div>
+                    <h3>Bioinformatics Tools</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Biopython</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">PyMOL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">BLAST</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-subtitle">Always open to discussing new opportunities and collaborations</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">📧</div>
+                        <h3>Email</h3>
+                        <p>Let's discuss opportunities</p>
+                        <a href="mailto:akshat23060@iiitd.ac.in" class="contact-link">akshat23060@iiitd.ac.in</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">💼</div>
+                        <h3>LinkedIn</h3>
+                        <p>Professional networking</p>
+                        <a href="https://linkedin.com/in/akshatkumar16/" target="_blank" rel="noopener" class="contact-link">Connect with me</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">💻</div>
+                        <h3>GitHub</h3>
+                        <p>Check out my code</p>
+                        <a href="https://github.com/akshat60github" target="_blank" rel="noopener" class="contact-link">View repositories</a>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <h3>Ready to collaborate?</h3>
+                    <p>Whether you're looking for a developer, researcher, or just want to chat about technology and science, I'd love to hear from you.</p>
+                    <div class="contact-cta-buttons">
+                        <a href="mailto:akshat23060@iiitd.ac.in" class="btn btn-primary">Send Message</a>
+                        <a href="./public/Resume.pdf" target="_blank" class="btn btn-outline" download="Akshat_Kumar_Resume.pdf">
+                            <span>📄</span>
+                            Download Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Akshat Kumar's Portfolio. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="mailto:akshat23060@iiitd.ac.in">Email</a>
+                    <a href="https://linkedin.com/in/akshatkumar16/" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="https://github.com/akshat60github" target="_blank" rel="noopener">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
