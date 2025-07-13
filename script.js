@@ -141,7 +141,6 @@ class AnimationObserver {
         });
     }
 }
-
 // Navbar Background on Scroll
 class NavbarScroll {
     constructor() {
